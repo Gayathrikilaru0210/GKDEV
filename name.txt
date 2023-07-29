@@ -1,0 +1,7 @@
+gayathir checking the insert command in vi editor
+to insert content to file
+do 
+1.vi name.txt
+2.ESC followed by i to insert the content
+3.to save and close the file ESC +:WQ!
+
