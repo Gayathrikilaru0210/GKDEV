@@ -1,0 +1,246 @@
+    1  ls
+    2  cd Documents
+    3  ls
+    4  exit
+    5  ls
+    6  cd ..
+    7  cd ..
+    8  cd D:
+    9  ls
+   10  cd gkdev
+   11  ls
+   12  touch name.txt
+   13  ls
+   14  rm name.txt
+   15  ls
+   16  history
+   17  git status
+   18  git commit .
+   19  git add .
+   20  git status
+   21  git commit
+   22  clear
+   23  history
+   24  clear
+   25  ls
+   26  git status
+   27  git commit -m names.txt is added
+   28  git commit -m "names.txt is added"
+   29  git config --global user.email "gayathrichowdary145@gamil.com"
+   30  git config --global user.name "gayathri"
+   31  git status
+   32  git commit -m "names.txt is added"
+   33  git status
+   34  clear
+   35  history
+   36  vi names.txt
+   37  git status
+   38  git add .
+   39  git commit
+   40  cat names.txt
+   41  vi names.txt
+   42  cat names.txt
+   43  git commit
+   44  git add names.txt
+   45  git status
+   46  git commit
+   47  touch name.txt
+   48  cat nmae.txt
+   49  vi name.txt
+   50  vi name.txt
+   51  cat name.txt
+   52  ls
+   53  git status
+   54  git add
+   55  git add .
+   56  git commit
+   57  clear
+   58  history
+   59  git status
+   60  git restore --staged names.txt
+   61  git statsu
+   62  git status
+   63  vi names.txt
+   64  git status
+   65  git add names.txt
+   66  git status
+   67  git restore --staged names.txt
+   68  git status
+   69  git status
+   70  git commit -a
+   71  git log
+   72  touch delete.txt
+   73  ls
+   74  rm delete.txt
+   75  ls
+   76  clear
+   77  history
+   78  ls
+   79  rm name.txt
+   80  got status
+   81  git staus
+   82  git status
+   83  git log
+   84  git add names.txt
+   85  git commit
+   86  git status
+   87  git log
+   88  git status
+   89  git commit -a
+   90  git log
+   91  git reset 6c8042eaa27364630fc0e0e72a5b8593b34de0c1
+   92  git log
+   93  clear
+   94  history
+   95  git stash
+   96  git add names.txt
+   97  git stash
+   98  touch stash.txt
+   99  vi stash.txt
+  100  git status
+  101  git add stash.txt
+  102  git stash
+  103  git status
+  104  ls
+  105  git stash pop
+  106  ls
+  107  git add stash.txt
+  108  git stash
+  109  git stash clear
+  110  ls
+  111  git status
+  112  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV
+  113  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV
+  114  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV.git
+  115  ls
+  116  git branch -m
+  117  git branch -m Main
+  118  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV.git
+  119  git remote -v
+  120  git branch -m master
+  121  git remote
+  122  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV.git
+  123  git config --help
+  124  clear
+  125  history
+  126  git config --global user.email "gayathrichowdary145@gamil.com"
+  127     30  git config --global user.name "gayathri"
+  128  git config --global user.email "gayathrichowdary145@gamil.com"
+  129  git config --global user.name "Gayathrikilaru0210"
+  130  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV.git
+  131  ls
+  132  clear
+  133  git remote add origin https://github.com/Gayathrikilaru0210/GKDEV.git
+  134  git remote -v
+  135  git push origin master
+  136  git log
+  137  clear
+  138  ls
+  139  touch sample.txt
+  140  git add .
+  141  git commit
+  142  touch commit.txt
+  143  git add .
+  144  git commit
+  145  touch commit1.txt
+  146  git add .
+  147  git commit
+  148  git log
+  149  clear
+  150  git push master
+  151  git push origin
+  152  ls
+  153  git remove -v
+  154  git remote -v
+  155  git push origin master
+  156  git log
+  157  git log
+  158  git log
+  159  git clone https://github.com/Gayathrikilaru0210/terraform-azure-course.git
+  160  ls
+  161  cd terraform-azure-course/
+  162  ls
+  163  cd application-gateway/
+  164  ls
+  165  cd app_gateway.tf
+  166  cat app_gateway.tf
+  167  cd ..
+  168  cd..
+  169  cd ..
+  170  ls
+  171   git branch feature
+  172  git checkout feature
+  173  git add .
+  174  git commit
+  175  git commit -m " adding new fiels to the existing repository"
+  176  git push origin feature
+  177  git remote add upstream https://github.com/in4it/terraform-azure-course.git
+  178  git remote -v
+  179  ls
+  180  touch readme1.txt
+  181  vi readme1.txt
+  182  git status
+  183  mv readme1.txt /terraform-azure-course/
+  184  mv readme1.txt /terraform-azure-course
+  185  cd terraform-azure-course/
+  186  touch readme1.txt
+  187  vi readme1.txt
+  188  git status
+  189  git add readme1.txt
+  190  git commit origin feature
+  191  git remote -v
+  192  git remote add upstream https://github.com/in4it/terraform-azure-course.git
+  193  git remote -v
+  194  ls
+  195  git add readme1.txt
+  196  git status
+  197  git branch feature
+  198  git checkout feature
+  199  git commit -m "ignore this change"
+  200  git log
+  201  git push origin feature
+  202  git checkout main
+  203  git checkout master
+  204  git status
+  205  git log
+  206  git fetch --all --prune
+  207  git log
+  208  git reset --hard upstream master
+  209  git reset --hard upstream/master
+  210  git log
+  211  git push origin master
+  212  git pull upstream main
+  213  git pull upstream master
+  214  git push origin master
+  215  git merge feature
+  216  git log
+  217  git log
+  218  clear
+  219  git branch temp
+  220  git checkout temp
+  221  touch 1
+  222  git add  1
+  223  git commit
+  224  touch 2
+  225  git add 2;git commit -m "2"
+  226  touch 3
+  227  git add .;git commit -m"3"
+  228  git -rebase
+  229  git log
+  230  git rebase -i 4e0065a41d75e0e441318aeb725231b133c9a624
+  231  git log
+  232  git status
+  233  git reset 4e0065a41d75e0e441318aeb725231b133c9a624
+  234  git log
+  235  git status
+  236  git clean
+  237  git reset -hard 4e0065a41d75e0e441318aeb725231b133c9a624
+  238  git reset --hard 4e0065a41d75e0e441318aeb725231b133c9a624
+  239  git status
+  240  git squash
+  241  git stash
+  242  git status
+  243  git clean -f
+  244  git status
+  245  history
+
